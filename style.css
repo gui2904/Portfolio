@@ -1,0 +1,104 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gradient-background {
+    background: linear-gradient(300deg, #322653, #5e48b8, #9681EB);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.name {
+    font-family: 'Sweet Apricot', cursive;
+    font-size: 90px;
+    color: #322653;
+}
+
+.lead {
+    font-size: 45px;
+}
+
+.picture {
+    border-radius: 50%;
+    height: 200px;
+}
+
+h2.aboutme {
+    color: #5e48b8;
+}
+
+.text-muted {
+    color: #322653;
+    width: 500px;
+}
+
+.css {
+    height: 200px;
+}
+
+.htmlpic {
+    height: 270px;
+    margin-top: 20px;
+}
+
+.csspic {
+    height: 300px;
+    margin-left: 50px;
+}
+
+.pypic {
+    height: 250px;
+}
+
+.comingsoonpic {
+    height: 300px;
+}
+
+.comingsoonpicfirst {
+    height: 300px;
+}
+
+
+.flexcontainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    column-gap: 100px;
+}
+
+footer {
+    background: linear-gradient(300deg, #322653, #5e48b8, #9681EB);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    margin-bottom: 0px;
+}
+
+li > svg {
+    height: 300px;
+}
+
+.email {
+    margin-right: 40px;
+}
+
+.header {
+    background: linear-gradient(300deg, #322653, #5e48b8, #322653);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.nav-item {
+    background-color: transparent;
+    color: black;
+}
+
+a.nav-link {
+    color: #cf95ff;
+}
+
+.nav-link:visited {
+   color: #cf95ff;
+}
