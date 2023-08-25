@@ -13,7 +13,7 @@
 
 .name {
     font-family: 'Sweet Apricot', cursive;
-    font-size: 90px;
+    font-size: 85px;
     color: #322653;
 }
 
@@ -50,11 +50,13 @@ h2.aboutme {
 }
 
 .pypic {
-    height: 250px;
+    height: 200px;
+    width: 450x;
 }
 
 .comingsoonpic {
     height: 300px;
+    
 }
 
 .comingsoonpicfirst {
@@ -67,6 +69,12 @@ h2.aboutme {
     grid-template-columns: 1fr 1fr;
     gap: 2rem;
     column-gap: 100px;
+
+    @media screen and (max-width: 600px) {
+        display: block;
+        grid-template-columns: 1fr;
+    }
+
 }
 
 footer {
@@ -101,4 +109,38 @@ a.nav-link {
 
 .nav-link:visited {
    color: #cf95ff;
+}
+
+.first-skill {
+    @media screen and (max-width: 600px) {
+        padding-left: 140px;
+        padding-bottom: 50px;
+    }
+    
+}
+
+.second-skill {
+    @media screen and (max-width: 600px) {
+        padding-left: 40px;
+    }
+    
+    
+}
+
+.third-skill {
+    @media screen and (max-width: 600px) {
+        padding-top: 50px;
+        padding-left: 35px;
+    }
+    
+}
+
+#skills-anchor {
+    width: auto;
+}
+
+.proj1 {
+    @media screen and (max-width: 600px) {
+        margin-bottom: 10px;
+    }
 }
